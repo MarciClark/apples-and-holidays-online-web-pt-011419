@@ -36,8 +36,11 @@ add_supply_to_memorial_day(holiday_supplies, "streamers")
 
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
-  # code here
-  # remember to return the updated hash
+  def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
+  holiday_hash[sugartime]["donut_day"] = supply_array
+  holiday_hash
+end
+add_new_holiday_with_supplies(holiday_supplies, :sugartime, :donut_day, ["Donuts", "sprinkles"])
 
 end
 

@@ -36,7 +36,6 @@ add_supply_to_memorial_day(holiday_supplies, "streamers")
 
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
-  def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   holiday_hash[season][holiday_name] = supply_array
   holiday_hash
 end
